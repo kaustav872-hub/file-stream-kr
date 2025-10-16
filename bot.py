@@ -22,7 +22,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 # ---------------- CONFIG ----------------
 # NOTE: In a real deployment, move these to environment variables (os.environ)
-BOT_TOKEN = "7304402114:AAHMRDKKxBQGfdQS-TOrtq-ywS5ufC5r9-o"
+BOT_TOKEN = "7304402114:AAGQBhYfkO1XYAGd8EgRIYXZGnkLZbn1dp0"
 ADMIN_ID = 6705618257
 DB_CHANNEL_ID = -1003197276754
 LOG_CHANNEL_ID = -1003134132996

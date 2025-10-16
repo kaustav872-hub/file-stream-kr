@@ -231,7 +231,7 @@ def start_bot_polling():
     logger.info("Bot polling started...")
     
     # This is a blocking call and handles the event loop.
-    application.run_polling(poll_interval=3) 
+    application.run_polling(poll_interval=3, drop_pending_updates=True)
 
 if __name__ == "__main__":
     
